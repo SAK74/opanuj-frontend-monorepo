@@ -1,0 +1,19 @@
+name: Configure npm client
+description: Configure npm client
+inputs:
+  repo-name:
+    description: Repository name
+    required: true
+  domain:
+    description: Domain name
+    required: true
+  domain-owner:
+   description: Domain owner
+   required: true
+  
+runs: 
+  using: composite
+  steps:
+    - name: configure
+      shell: bash
+      run: aws codeartifact login --tool npm --repository ${{inputs.repo-name}} --domain ${{inputs.domain}} --domain-owner ${{inputs.domain-owner}} --region eu-north-1
