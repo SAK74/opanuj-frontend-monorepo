@@ -1,6 +1,6 @@
 {
   "name": "@my/design-tokens",
-  "version": "2.2.0",
+  "version": "2.2.4",
   "description": "Design tokens collection for Przeprogramowani Design System",
   "license": "MIT",
   "keywords": [
@@ -17,7 +17,8 @@
       "import": "./dist/index.mjs",
       "require": "./dist/index.cjs",
       "types": "./dist/index.d.ts"
-    }
+    },
+    "./css": "./dist/css/tokens.css"
   },
   "engines": {
     "node": ">=20"
