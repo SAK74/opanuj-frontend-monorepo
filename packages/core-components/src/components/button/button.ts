@@ -1,41 +1,43 @@
-import {
-  ButtonTextColor,
-  ColorAliasPrimary1,
-  ColorAliasPrimary10,
-  ColorAliasPrimary11,
-  ColorAliasPrimary2,
-  ColorAliasPrimary3,
-  ColorAliasPrimary4,
-  ColorAliasPrimary5,
-  ColorAliasPrimary6,
-  ColorAliasPrimary7,
-  ColorAliasPrimary8,
-  ColorAliasPrimary9,
-} from '@my/design-tokens';
+// import {
+//   ButtonTextColor,
+//   ColorAliasPrimary1,
+//   ColorAliasPrimary10,
+//   ColorAliasPrimary11,
+//   ColorAliasPrimary2,
+//   ColorAliasPrimary3,
+//   ColorAliasPrimary4,
+//   ColorAliasPrimary5,
+//   ColorAliasPrimary6,
+//   ColorAliasPrimary7,
+//   ColorAliasPrimary8,
+//   ColorAliasPrimary9,
+// } from '@my/design-tokens';
 import '@shoelace-style/shoelace/dist/components/button/button.js';
 import '@shoelace-style/shoelace/dist/themes/light.css';
-import { LitElement, css, html, unsafeCSS } from 'lit';
+import { LitElement, html } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { ifDefined } from 'lit/directives/if-defined.js';
 
+import '@my/design-tokens/css';
+
 @customElement('pp-button')
 export class Button extends LitElement {
-  static override styles = css`
-    :host {
-      --sl-color-primary-50: ${unsafeCSS(ColorAliasPrimary1)};
-      --sl-color-primary-100: ${unsafeCSS(ColorAliasPrimary2)};
-      --sl-color-primary-200: ${unsafeCSS(ColorAliasPrimary3)};
-      --sl-color-primary-300: ${unsafeCSS(ColorAliasPrimary4)};
-      --sl-color-primary-400: ${unsafeCSS(ColorAliasPrimary5)};
-      --sl-color-primary-500: ${unsafeCSS(ColorAliasPrimary6)};
-      --sl-color-primary-600: ${unsafeCSS(ColorAliasPrimary7)};
-      --sl-color-primary-700: ${unsafeCSS(ColorAliasPrimary8)};
-      --sl-color-primary-800: ${unsafeCSS(ColorAliasPrimary9)};
-      --sl-color-primary-900: ${unsafeCSS(ColorAliasPrimary10)};
-      --sl-color-primary-950: ${unsafeCSS(ColorAliasPrimary11)};
-      --sl-color-neutral-700: ${unsafeCSS(ButtonTextColor)};
-    }
-  `;
+  // static override styles = css`
+  //   :host {
+  //     --sl-color-primary-50: ${unsafeCSS(ColorAliasPrimary1)};
+  //     --sl-color-primary-100: ${unsafeCSS(ColorAliasPrimary2)};
+  //     --sl-color-primary-200: ${unsafeCSS(ColorAliasPrimary3)};
+  //     --sl-color-primary-300: ${unsafeCSS(ColorAliasPrimary4)};
+  //     --sl-color-primary-400: ${unsafeCSS(ColorAliasPrimary5)};
+  //     --sl-color-primary-500: ${unsafeCSS(ColorAliasPrimary6)};
+  //     --sl-color-primary-600: ${unsafeCSS(ColorAliasPrimary7)};
+  //     --sl-color-primary-700: ${unsafeCSS(ColorAliasPrimary8)};
+  //     --sl-color-primary-800: ${unsafeCSS(ColorAliasPrimary9)};
+  //     --sl-color-primary-900: ${unsafeCSS(ColorAliasPrimary10)};
+  //     --sl-color-primary-950: ${unsafeCSS(ColorAliasPrimary11)};
+  //     --sl-color-neutral-700: ${unsafeCSS(ButtonTextColor)};
+  //   }
+  // `;
 
   /** The button's theme variant. */
   @property({ reflect: true }) variant:
