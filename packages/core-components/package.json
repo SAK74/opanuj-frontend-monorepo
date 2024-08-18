@@ -1,5 +1,5 @@
 {
-  "name": "@my/core-components",
+  "name": "@sak74/core-components",
   "version": "0.2.0",
   "description": "",
   "main": "dist/index.js",
@@ -12,7 +12,7 @@
     "prebuild": "rimraf dist",
     "build": "tsc",
     "lint": "npm run lint:lit-analyzer && npm run lint:eslint",
-    "lint:eslint": "eslint 'src/**/*.ts'",
+    "lint:eslint": "eslint src/**/*.ts",
     "lint:lit-analyzer": "lit-analyzer",
     "test": "vitest run"
   },
@@ -23,9 +23,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@my/design-tokens": "^2.2.0",
+    "@sak74/design-tokens": "^2.2.4",
     "@shoelace-style/shoelace": "^2.15.0",
-    "lit": "^3.1.2"
+    "@storybook/web-components-vite": "7.6.20",
+    "lit": "^3.1.2",
+    "storybook": "7.6.20"
   },
   "devDependencies": {
     "@types/glob": "^8.1.0",
@@ -36,7 +38,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-lit": "^1.11.0",
     "lit-analyzer": "^2.0.3",
-    "webdriverio": "^8.36.0"
+    "webdriverio": "^9.0.1"
   },
   "repository": {
     "type": "git",

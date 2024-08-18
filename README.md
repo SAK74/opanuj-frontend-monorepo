@@ -6,8 +6,8 @@
 
 Monorepozytorium Lerna+Nx z dwiema paczkami:
 
-- `@przeprogramowani/design-tokens` - podstawowe zmienne wizualne
-- `@przeprogramowani/core-components` - komponenty Shoelace ostylowane za pomocą design-tokens
+- `@sak74/design-tokens` - podstawowe zmienne wizualne
+- `@sak74/core-components` - komponenty Shoelace ostylowane za pomocą design-tokens
 
 Do tego:
 

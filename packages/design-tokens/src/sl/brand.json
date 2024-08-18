@@ -1,0 +1,57 @@
+{
+  "sl": {
+    "color": {
+      "primary": {
+        "50": {
+          "value": "{color.alias.primary.1.value}",
+          "type": "color"
+        },
+        "100": {
+          "value": "{color.alias.primary.2.value}",
+          "type": "color"
+        },
+        "200": {
+          "value": "{color.alias.primary.3.value}",
+          "type": "color"
+        },
+        "300": {
+          "value": "{color.alias.primary.4.value}",
+          "type": "color"
+        },
+        "400": {
+          "value": "{color.alias.primary.5.value}",
+          "type": "color"
+        },
+        "500": {
+          "value": "{color.alias.primary.6.value}",
+          "type": "color"
+        },
+        "600": {
+          "value": "{color.alias.primary.7.value}",
+          "type": "color"
+        },
+        "700": {
+          "value": "{color.alias.primary.8.value}",
+          "type": "color"
+        },
+        "800": {
+          "value": "{color.alias.primary.9.value}",
+          "type": "color"
+        },
+        "900": {
+          "value": "{color.alias.primary.10.value}",
+          "type": "color"
+        },
+        "950": {
+          "value": "{color.alias.primary.11.value}",
+          "type": "color"
+        }
+      },
+      "neutral": {
+        "600": {
+          "value": "{button.text.color}"
+        }
+      }
+    }
+  }
+}
