@@ -12,7 +12,7 @@
     "prebuild": "rimraf dist",
     "build": "tsc",
     "lint": "npm run lint:lit-analyzer && npm run lint:eslint",
-    "lint:eslint": "eslint 'src/**/*.ts'",
+    "lint:eslint": "eslint src/**/*.ts",
     "lint:lit-analyzer": "lit-analyzer",
     "test": "vitest run"
   },
@@ -23,7 +23,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@my/design-tokens": "^2.2.0",
+    "@my/design-tokens": "^2.2.4",
     "@shoelace-style/shoelace": "^2.15.0",
     "lit": "^3.1.2"
   },
