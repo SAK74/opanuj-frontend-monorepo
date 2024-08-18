@@ -1,0 +1,37 @@
+name: Deploy Storybook
+
+on: workflow_dispatch
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Install dependencies
+        run: |
+          npm ci
+
+      - name: Build packages
+        run: |
+          npm run build
+
+      - name: Deploy
+        uses: bitovi/github-actions-storybook-to-github-pages@v1.0.3
+        with:
+          build_command: npx nx build-storybook @sak74/core-components
+          path: packages/core-components/storybook-static
+          checkout: false
