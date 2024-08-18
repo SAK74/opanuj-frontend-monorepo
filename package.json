@@ -9,7 +9,7 @@
     "build": "lerna run build",
     "test": "lerna run test",
     "clean": "lerna clean",
-    "storybook": "nx storybook @przeprogramowani/core-components",
+    "storybook": "nx storybook @my/core-components",
     "update:token": "./update_token.sh"
   },
   "dependencies": {
