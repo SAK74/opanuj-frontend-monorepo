@@ -11,14 +11,14 @@
 //   ColorAliasPrimary7,
 //   ColorAliasPrimary8,
 //   ColorAliasPrimary9,
-// } from '@my/design-tokens';
+// } from '@sak74/design-tokens';
 import '@shoelace-style/shoelace/dist/components/button/button.js';
 import '@shoelace-style/shoelace/dist/themes/light.css';
 import { LitElement, html } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { ifDefined } from 'lit/directives/if-defined.js';
 
-import '@my/design-tokens/css';
+import '@sak74/design-tokens/css';
 
 @customElement('pp-button')
 export class Button extends LitElement {

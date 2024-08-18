@@ -84,6 +84,6 @@ jobs:
       - name: Deploy Storybook on GH Pages
         uses: bitovi/github-actions-storybook-to-github-pages@v1.0.3
         with:
-          build_command: npx nx build-storybook @my/core-components
+          build_command: npx nx build-storybook @sak74/core-components
           path: packages/core-components/storybook-static
           checkout: false
