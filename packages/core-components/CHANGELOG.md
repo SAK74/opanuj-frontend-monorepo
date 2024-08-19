@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/przeprogramowani/opanuj-frontend-monorepo/compare/@sak74/core-components@0.3.0...@sak74/core-components@0.3.1) (2024-08-19)
+
+### Bug Fixes
+
+- button styling ([e3f0cf6](https://github.com/przeprogramowani/opanuj-frontend-monorepo/commit/e3f0cf62094fad0d2cc50026f765e4bd67a66b9e))
+
 # 0.3.0 (2024-08-18)
 
 ### Bug Fixes
