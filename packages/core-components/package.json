@@ -1,6 +1,6 @@
 {
   "name": "@sak74/core-components",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -29,7 +29,6 @@
   },
   "devDependencies": {
     "@storybook/web-components-vite": "7.6.20",
-    "storybook": "7.6.20",
     "@types/glob": "^8.1.0",
     "@types/minimatch": "^5.1.2",
     "@typescript-eslint/eslint-plugin": "^7.5.0",
@@ -37,6 +36,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-lit": "^1.11.0",
     "lit-analyzer": "^2.0.3",
+    "storybook": "7.6.20",
     "webdriverio": "^9.0.1"
   },
   "repository": {
