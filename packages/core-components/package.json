@@ -25,14 +25,13 @@
   "dependencies": {
     "@sak74/design-tokens": "^2.3.0",
     "@shoelace-style/shoelace": "^2.15.0",
-    "@storybook/web-components-vite": "7.6.20",
-    "lit": "^3.1.2",
-    "storybook": "7.6.20"
+    "lit": "^3.1.2"
   },
   "devDependencies": {
+    "@storybook/web-components-vite": "7.6.20",
+    "storybook": "7.6.20",
     "@types/glob": "^8.1.0",
     "@types/minimatch": "^5.1.2",
-    "@types/react": "^18.2.78",
     "@typescript-eslint/eslint-plugin": "^7.5.0",
     "@typescript-eslint/parser": "^7.5.0",
     "eslint": "^8.57.0",
