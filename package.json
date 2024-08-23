@@ -9,7 +9,7 @@
     "build": "lerna run build",
     "test": "lerna run test",
     "clean": "lerna clean",
-    "storybook": "nx storybook @sak74/core-components",
+    "storybook": "nx storybook @sak74/core-components --no-open --port 9000",
     "update:token": "./update_token.sh"
   },
   "devDependencies": {
@@ -44,6 +44,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/przeprogramowani/opanuj-frontend-monorepo.git"
+    "url": "git+https://github.com/SAK74/opanuj-frontend-monorepo.git"
   }
 }
