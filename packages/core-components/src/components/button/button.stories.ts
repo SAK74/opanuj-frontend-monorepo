@@ -2,6 +2,8 @@ import type { Meta, StoryObj } from '@storybook/web-components';
 import { html } from 'lit';
 import './button';
 
+import { variants } from '../../globals/variants';
+
 type Story = StoryObj;
 
 const meta: Meta = {
@@ -10,15 +12,7 @@ const meta: Meta = {
   argTypes: {
     variant: {
       control: { type: 'select' },
-      options: [
-        'default',
-        'primary',
-        'success',
-        'neutral',
-        'warning',
-        'danger',
-        'text',
-      ],
+      options: [...variants, 'text', 'default'],
     },
     size: {
       control: { type: 'select' },
