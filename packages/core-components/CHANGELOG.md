@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/SAK74/opanuj-frontend-monorepo/compare/@sak74/core-components@0.3.2...@sak74/core-components@0.4.0) (2024-08-23)
+
+### Features
+
+- add alert component with testing ([0d4e3f9](https://github.com/SAK74/opanuj-frontend-monorepo/commit/0d4e3f9e571a800e984513c6d13f89922da00220))
+
 ## [0.3.2](https://github.com/przeprogramowani/opanuj-frontend-monorepo/compare/@sak74/core-components@0.3.1...@sak74/core-components@0.3.2) (2024-08-20)
 
 ### Bug Fixes
