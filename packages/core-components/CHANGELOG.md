@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.2](https://github.com/SAK74/opanuj-frontend-monorepo/compare/@sak74/core-components@0.4.1...@sak74/core-components@0.4.2) (2024-08-24)
+
+### Bug Fixes
+
+- change shadow styling ([1c606e3](https://github.com/SAK74/opanuj-frontend-monorepo/commit/1c606e344fccf1ba952dc150cc49bd95ca1db1ad))
+
 ## [0.4.1](https://github.com/SAK74/opanuj-frontend-monorepo/compare/@sak74/core-components@0.4.0...@sak74/core-components@0.4.1) (2024-08-24)
 
 ### Bug Fixes
