@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/SAK74/opanuj-frontend-monorepo/compare/@sak74/core-components@0.4.0...@sak74/core-components@0.4.1) (2024-08-24)
+
+### Bug Fixes
+
+- fix icon prop passing ([02c186a](https://github.com/SAK74/opanuj-frontend-monorepo/commit/02c186ad05fd135f001e0f9caf74f317c244ca66))
+
 # [0.4.0](https://github.com/SAK74/opanuj-frontend-monorepo/compare/@sak74/core-components@0.3.2...@sak74/core-components@0.4.0) (2024-08-23)
 
 ### Features
