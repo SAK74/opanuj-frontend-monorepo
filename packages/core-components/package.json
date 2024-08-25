@@ -28,7 +28,7 @@
     "lit": "^3.1.2"
   },
   "devDependencies": {
-    "@storybook/web-components-vite": "7.6.20",
+    "@storybook/web-components-vite": "^8",
     "@types/glob": "^8.1.0",
     "@types/minimatch": "^5.1.2",
     "@typescript-eslint/eslint-plugin": "^7.5.0",
@@ -36,7 +36,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-lit": "^1.11.0",
     "lit-analyzer": "^2.0.3",
-    "storybook": "7.6.20",
+    "storybook": "^8",
     "webdriverio": "^9.0.1"
   },
   "repository": {

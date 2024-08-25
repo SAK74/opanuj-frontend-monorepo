@@ -49,6 +49,7 @@ jspm_packages/
 
 # Nx local cache
 .nx/cache
+.nx/workspace-data
 
 # Storybook static build
 storybook-static
