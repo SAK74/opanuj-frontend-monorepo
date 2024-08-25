@@ -10,9 +10,12 @@
     "test": "lerna run test",
     "clean": "lerna clean",
     "storybook": "nx storybook @sak74/core-components --no-open --port 9000",
-    "update:token": "./update_token.sh"
+    "update:token": "./update_token.sh",
+    "prepare": "husky"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.4.0",
+    "@commitlint/config-conventional": "^19.2.2",
     "@nx/js": "18.2.4",
     "@nx/storybook": "^18.2.4",
     "@nx/vite": "18.2.4",
@@ -29,6 +32,7 @@
     "@types/node": "^20.12.7",
     "@vitest/browser": "^1.5.0",
     "diff-sequences": "^29.6.3",
+    "husky": "^9.1.5",
     "lerna": "^8.1.2",
     "lit": "^3.1.2",
     "nx": "^18.2.4",
