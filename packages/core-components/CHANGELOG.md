@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.3](https://github.com/SAK74/opanuj-frontend-monorepo/compare/@sak74/core-components@0.4.2...@sak74/core-components@0.4.3) (2024-08-25)
+
+### Bug Fixes
+
+- update storybook ([3df2b27](https://github.com/SAK74/opanuj-frontend-monorepo/commit/3df2b27ae46beb5411d53725c3fcce39d3a4cf8d))
+
 ## [0.4.2](https://github.com/SAK74/opanuj-frontend-monorepo/compare/@sak74/core-components@0.4.1...@sak74/core-components@0.4.2) (2024-08-24)
 
 ### Bug Fixes
