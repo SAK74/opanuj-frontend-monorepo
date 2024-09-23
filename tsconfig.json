@@ -11,7 +11,8 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "*": ["node_modules", "packages/*/src"]
+      "*": ["node_modules", "packages/*/src"],
+      "my-plugin": ["tools/my-plugin/src/index.ts"]
     },
     "outDir": "./dist",
     "rootDir": "./packages",
